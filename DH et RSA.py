@@ -1,3 +1,5 @@
+import sys
+
 def dh():
     P = int(input("Entrez P : "))
     g = int(input("Entrez g : "))
@@ -65,9 +67,10 @@ def menu():
             print("\n")
             menu()
     elif (choix == "3"):
-        print()
+        print("Fermeture du programme...")
+        sys.exit()
     else :
-        print("Mais quelle bite, il sait meme pas lire. 1 2 ou 3 on t'as dis !")
+        print("erreur dans le choix")
         menu()
     
 
