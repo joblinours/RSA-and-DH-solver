@@ -1,4 +1,5 @@
 import sys
+import math
 
 def dh():
     P = int(input("Entrez P : "))
